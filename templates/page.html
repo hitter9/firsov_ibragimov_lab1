@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" href="/pagestyle.css" type="text/css">
+    <title> {{ page.title }} </title>
+</head>
+<h1 class="title">
+    {{ page.title }}
+</h1>
+{{ page.content | safe }}
+{% endblock content %}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://hitter9.github.io/firsovvictor_lab1/sitemap.xml
